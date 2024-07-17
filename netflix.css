@@ -1,0 +1,259 @@
+a {
+  color: #cac2c2fb;
+}
+.a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.b {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.d {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.d70 {
+  position: absolute;
+  left: 160px;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.d72 {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+.d73 select {
+  padding: 5px;
+  padding-right: 45px;
+  border-radius: 5px;
+  border: 1px solid #cac2c281;
+  background-color: rgb(15 15 15);
+  color: white;
+  transition: background-color;
+}
+.d73 select:hover {
+  background-color: white;
+  color: black;
+}
+.d7 {
+  background-color: black;
+  height: 400px;
+  color: #cac2c2fb;
+  font-size: 15px;
+  position: relative;
+}
+
+.img {
+  transition: transform 0.2s;
+  z-index: 22;
+}
+.img:hover {
+  transform: scale(1.2, 1.2);
+}
+.topten p6 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 100px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+  z-index: 1;
+}
+.topten p5 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 300px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+}
+.topten p4 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 500px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+}
+.topten p3 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 685px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+}
+.topten p2 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 850px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+}
+.topten p1 {
+  font-weight: 900;
+  font-size: 208px;
+  position: absolute;
+  bottom: -28px;
+  right: 1050px;
+  color: black;
+  -webkit-text-stroke: 3px lightgray;
+}
+.topten img {
+  height: 150px;
+}
+
+.topten {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.text4 {
+  position: absolute;
+  font-size: large;
+  font-weight: bolder;
+  top: 1890px;
+  left: 40px;
+}
+.text3 {
+  position: absolute;
+  font-size: large;
+  font-weight: bolder;
+  top: 1630px;
+  left: 40px;
+}
+.text2 {
+  position: absolute;
+  font-size: large;
+  font-weight: bolder;
+  top: 1090px;
+  left: 40px;
+}
+.text1 {
+  position: absolute;
+  font-size: large;
+  font-weight: bolder;
+  top: 260px;
+  left: 40px;
+}
+
+.films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  row-gap: 70px;
+}
+.second {
+  height: 2200px;
+  width: 100%;
+  background-color: #181818;
+  position: relative;
+}
+
+.p4 {
+  font-size: large;
+  font-weight: bolder;
+  position: absolute;
+  top: 650px;
+  color: white;
+  left: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.button1 button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid white;
+  transition: background-color;
+}
+.button1 button:hover {
+  background-color: rgba(255, 255, 255, 0.582);
+}
+.button2 button {
+  height: 30px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.582);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.582);
+  transition: background-color;
+}
+.button2 button:hover {
+  background-color: white;
+  color: black;
+}
+
+.head2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  left: 50px;
+  top: 100px;
+}
+
+.logohome {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  position: absolute;
+  left: 50px;
+}
+
+.homes {
+  display: flex;
+  gap: 25px;
+  color: white;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.backimg {
+  background-image: url(./images/batsda.jpg);
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+.main {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: white;
+}
