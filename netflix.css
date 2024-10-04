@@ -56,11 +56,12 @@ a {
 }
 
 .img {
-  transition: transform 0.2s;
+  transition: all 0.4s;
   z-index: 22;
 }
 .img:hover {
   transform: scale(1.2, 1.2);
+  transition: all 0.4s;
 }
 .topten p6 {
   font-weight: 900;
@@ -132,21 +133,21 @@ a {
   position: absolute;
   font-size: large;
   font-weight: bolder;
-  top: 1890px;
+  top: 1740px;
   left: 40px;
 }
 .text3 {
   position: absolute;
   font-size: large;
   font-weight: bolder;
-  top: 1630px;
+  top: 1500px;
   left: 40px;
 }
 .text2 {
   position: absolute;
   font-size: large;
   font-weight: bolder;
-  top: 1090px;
+  top: 1190px;
   left: 40px;
 }
 .text1 {
@@ -158,6 +159,7 @@ a {
 }
 
 .films {
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -167,7 +169,8 @@ a {
   row-gap: 70px;
 }
 .second {
-  height: 2200px;
+  cursor: pointer;
+  height: 2000px;
   width: 100%;
   background-color: #181818;
   position: relative;
@@ -188,9 +191,10 @@ a {
   gap: 10px;
 }
 .button1 button {
+  cursor: pointer;
   height: 30px;
   width: 100px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid white;
   transition: background-color;
 }
@@ -198,11 +202,12 @@ a {
   background-color: rgba(255, 255, 255, 0.582);
 }
 .button2 button {
+  cursor: pointer;
   height: 30px;
   width: 100px;
   background-color: rgba(255, 255, 255, 0.582);
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.582);
   transition: background-color;
 }
@@ -233,9 +238,14 @@ a {
 }
 
 .homes {
+  cursor: pointer;
   display: flex;
   gap: 25px;
   color: white;
+}
+.batmantitle img {
+  width: 450px;
+  height: 191px;
 }
 * {
   padding: 0;
@@ -247,7 +257,6 @@ a {
   height: 700px;
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   gap: 20px;
   position: relative;
